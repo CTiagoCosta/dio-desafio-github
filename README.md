@@ -1,4 +1,4 @@
-# dio-desafio-github
+# Dio-desafio-GitHub
 Primeiro desafio Dio no GitHub  
 
 ## links úteis
