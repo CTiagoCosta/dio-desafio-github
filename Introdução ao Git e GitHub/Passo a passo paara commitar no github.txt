@@ -1,0 +1,74 @@
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git
+$ git clone https://github.com/CTiagoCosta/dio-desafio-github.git
+Cloning into 'dio-desafio-github'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git
+$ cd  dio-desafio-github/
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Introdu\303\247\303\243o ao Git e GitHub/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ git add .
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Introdu\303\247\303\243o ao Git e GitHub/Anota\303\247\303\265es.txt"
+
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ git commit -m "inclusao das anotaçoes do curso de git/github"
+[main 537c4fa] inclusao das anotaçoes do curso de git/github
+ 1 file changed, 2 insertions(+)
+ create mode 100644 "Introdu\303\247\303\243o ao Git e GitHub/Anota\303\247\303\265es.txt"
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 455 bytes | 455.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CTiagoCosta/dio-desafio-github.git
+   7bc46ab..537c4fa  main -> main
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$ ^C
+
+Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
+$
