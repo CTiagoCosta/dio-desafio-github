@@ -72,3 +72,10 @@ $ ^C
 
 Carlos Tiago@DESKTOP-EFL9IM1 MINGW64 ~/Desktop/Cursos 2022/Arquivos Pessoais/Dio/Git/dio-desafio-github (main)
 $
+
+Clonar para a maquina: git clone https://github.com/CTiagoCosta/dio-desafio-github.git
+Status da pasta: git status
+arquivos alterados na pasta
+Adicionar os arquivos alterados da pasta: git add .
+Comitar com uma mensagem: git commit -m "inclusao das anotaçoes do curso de git/github"
+Publicar no gitHub: git push origin main
